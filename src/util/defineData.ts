@@ -1,0 +1,1 @@
+export const TITLE = "国创生成式大模型";

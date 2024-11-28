@@ -1,0 +1,41 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+/* Utils
+------------------------------ */
+.clearfix:before,.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+
+/* Animation
+------------------------------ */
+.fade-enter-active,.fade-leave-active {transition: opacity .5s;}
+.fade-enter,.fade-leave-to {opacity: 0;}
+
+/* 文字标签设置
+------------------------------ */
+h1{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 20px;line-height: 24px; margin:0;}    //特殊性标题
+h2{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 17px;line-height: 22px; margin:0;}    //一级导航栏标题
+h3{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 15px;line-height: 20px; margin:0;}    //二级导航栏标题、一级标题
+h4{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 14px;line-height: 18px; margin:0;}    //正文
+h5{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 12px;line-height: 16px; margin:0;}    //副标题文字、解释行文字
+h6{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 11px;line-height: 13px; margin:0;}    //标签栏文字
+//h7{font-family:'PingFangSC-Regular';font-weight: 500;font-size: 10px;line-height: 11px;}    //特殊辅助文字
+
+.normal_color{color:#333333};
+.other_color{color:#cccccc};
+
+/** 统一滚动条样式 */
+/* 设置滚动条宽度和颜色 */
+::-webkit-scrollbar {
+  display: none; /* 针对Webkit浏览器，如Chrome、Safari */
+}
