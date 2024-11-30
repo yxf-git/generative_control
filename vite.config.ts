@@ -31,7 +31,6 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "http://192.168.202.10:8435", //正式环境
-        // target: "http://172.16.10.71:8435", //刘俊
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, "/"),
       },
